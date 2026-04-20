@@ -11,15 +11,21 @@ func TestGroupAnagrams(t *testing.T) {
 		strs []string
 		want interface{}
 	}{
-		{"example 1",
+		{
+			"example 1",
 			[]string{"eat", "tea", "tan", "ate", "nat", "bat"},
-			nil /* TODO: fill expected */},
-		{"example 2",
+			nil, /* TODO: fill expected */
+		},
+		{
+			"example 2",
 			[]string{""},
-			nil /* TODO: fill expected */},
-		{"example 3",
+			nil, /* TODO: fill expected */
+		},
+		{
+			"example 3",
 			[]string{"a"},
-			nil /* TODO: fill expected */},
+			nil, /* TODO: fill expected */
+		},
 	}
 
 	for _, tt := range tests {

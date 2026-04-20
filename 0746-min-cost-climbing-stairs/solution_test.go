@@ -11,12 +11,16 @@ func TestMinCostClimbingStairs(t *testing.T) {
 		cost []int
 		want int
 	}{
-		{"example 1",
+		{
+			"example 1",
 			[]int{10, 15, 20},
-			15},
-		{"example 2",
+			15,
+		},
+		{
+			"example 2",
 			[]int{1, 100, 1, 1, 1, 100, 1, 1, 100, 1},
-			6},
+			6,
+		},
 	}
 
 	for _, tt := range tests {
